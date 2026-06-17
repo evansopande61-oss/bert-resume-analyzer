@@ -1,36 +1,47 @@
 # Python
 __pycache__/
 *.py[cod]
-.venv/
+*$py.class
+
+# Virtual Environments
 venv/
 env/
+.venv/
+
+# Environment Variables
 .env
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Data
+# Logs
+logs/
+*.log
+
+# Data Files
 data/raw/
 data/processed/
 *.csv
-*.json
+*.xlsx
 *.parquet
 
-# Models
+# Model Files
 models/
 checkpoints/
-*.pt
 *.pth
+*.pt
 *.h5
 *.onnx
 *.safetensors
 
-# Logs
-logs/
-wandb/
+# ML Tracking
 mlruns/
+wandb/
 
-# OS / IDE
-.DS_Store
+# IDE
 .vscode/
 .idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
