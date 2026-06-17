@@ -290,7 +290,7 @@ The model is evaluated using:
 
 AI Engineer | Machine Learning Practitioner | NLP Enthusiast
 
-GitHub: https://github.com/evansopande
+Github URL: https://github.com/evansopande61-oss
 
 ---
 
